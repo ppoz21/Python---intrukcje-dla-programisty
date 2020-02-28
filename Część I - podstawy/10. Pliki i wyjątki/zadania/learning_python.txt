@@ -1,0 +1,4 @@
+W Pythonie można:
+    tworzyć listy
+    programować obiektowo
+    obsługiwać pliki
