@@ -134,8 +134,8 @@ class AllienInvasion:
         if collisions:
             for aliens in collisions.values():
                 self.stats.score += self.settings.alien_points * len(aliens)
-            self.sb.prep_score
-            self.sb.check_hogh_score
+            self.sb.prep_score()
+            self.sb.check_hogh_score()
 
         if not self.aliens:
             # Zniszcz istniejące pociski i utwórz nową flotę
